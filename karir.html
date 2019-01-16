@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         
+         
+         
+        <title>Info Lowongan pekerjaan di RSUD dr. Soeselo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link href="img/122.png" rel="shortcut icon">
+         
+         
+<style>
+.content2{
+    font-family: 'lato', sans-serif;
+    padding-left: 79px;
+    padding-right: 79px;
+    font-size: 14px;
+}
+</style>
+    </head>
+    <body>
+        <header class="flex-navbar">
+            <h1 class="logo-name"><a href="index.html">RSUD dr. Soeselo </a></h1>
+            <ul class="items items-right">
+              <li class="item"><a href="nilaikami.html">Tentang Kami</a></li>
+              <li class="item"><a href="sejarah.html">Sejarah</a></li>
+              <li class="item"><a href="manajemen.html">Manajemen</a></li>
+              <li class="item"><a href="layanan2.html">Pelayanan Pasien</a></li>
+              <li class="item"><a href="karir.html">Kritik & Saran</a></li>  
+                </ul>
+    </header><br>
+    
+<h1 align="center" style="font-size:20px;">
+
+	<link rel="stylesheet" type="text/css" href="cs.css">
+</head>
+
+	<div class="login">
+		<form action="#" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Nama Lengkap:</label>
+				<input type="text" name="nama" id="nama" />
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email" id="email" />
+			</div>
+			<div>
+				<label>Komentar:</label>
+				<textarea cols="40" rows="5" name="alamat" id="alamat"></textarea>
+			</div>
+			<div>
+				<input type="submit" value="Kirim" class="tombol">
+			</div>
+		</form>
+	</div>
+
+<script type="text/javascript">
+	function validasi() {
+		var nama = document.getElementById("nama").value;
+		var email = document.getElementById("email").value;
+		var alamat = document.getElementById("alamat").value;
+		if (nama != "" && email!="" && alamat !="") {
+			return true;
+		}else{
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+</script>
+
+</h1><br>
+<div class="content2">
+<p style="font-size:12px;"><b>Hati-hati terhadap penipuan yang mengatasnamakan RSUD dr. Soeselo.<br>
+    Sistem perekrutan kami tidak pernah memungut biaya dan hanya menggunakan email berdomain @drsoeselo.com atau @rsud.drsoeselo.co.id.
+</b></p>
+</div>
+<footer class="footer-basic-centered">
+
+			<br>
+			<p class="footer-company-motto">RSUD dr. Soeselo</p>
+  
+    <p class="footer-company-name">© Copyright 2019 - RSUD dr. Soeselo</p>
+</body>
+</html>
